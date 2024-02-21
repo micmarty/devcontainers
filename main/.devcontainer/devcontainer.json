@@ -51,6 +51,7 @@
 	"customizations": {
 		"vscode": {
 			"settings": {
+				"terminal.integrated.fontFamily": "MesloLGM Nerd Font",
 				"terminal.integrated.defaultProfile.linux": "tmux",
 				"terminal.integrated.profiles.linux": {
 					"bash": {
