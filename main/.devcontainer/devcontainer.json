@@ -52,14 +52,14 @@
 		"vscode": {
 			"settings": {
 				"terminal.integrated.fontFamily": "MesloLGM Nerd Font",
-				"terminal.integrated.defaultProfile.linux": "tmux",
+				"terminal.integrated.defaultProfile.linux": "bash",
 				"terminal.integrated.profiles.linux": {
 					"bash": {
 						"path": "bash",
 						"icon": "terminal-bash"
 					},
 					"tmux": {
-						"path": "tmux",
+						"path": "tmux new -A -s master bash",
 						"icon": "terminal-tmux"
 					}
 				}
