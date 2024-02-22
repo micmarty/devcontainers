@@ -7,6 +7,9 @@ chezmoi init --apply $GITHUB_USERNAME --verbose
 
 mkdir -p ~/.local/bin
 ln -s /usr/bin/batcat ~/.local/bin/bat
+# fzf
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install --all --xdg --no-fish --no-zsh --no-update-rc 
 curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash
 curl -s https://ohmyposh.dev/install.sh | bash -s -- -d ~/.local/bin
 
